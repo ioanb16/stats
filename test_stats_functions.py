@@ -5,4 +5,12 @@ def test_mean():
     m = stats_functions.mean(my_list)
     assert m == 2.5
     
+def test_med():
+    my_list = [1,2,3,4]
+    m = stats_functions.med(my_list)
+    assert m == 2.5
     
+def test_range():
+    my_list = [1,2,3,4]
+    r = stats_functions.range(my_list)
+    assert r == 3
