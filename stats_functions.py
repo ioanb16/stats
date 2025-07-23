@@ -9,3 +9,8 @@ def med(a_list):
     m1 = (len(sorted_list)-1)/2
     m2 = (len(sorted_list)+1)/2
     return (sorted_list[m1] + sorted_list[m2])/2
+
+def range(a_list):
+    max_value = max(a_list)
+    min_value = min(a_list)
+    return max_value - min_value
