@@ -14,3 +14,10 @@ def range(a_list):
     max_value = max(a_list)
     min_value = min(a_list)
     return max_value - min_value
+
+
+def sum(a_list):
+    sum_value = 0
+    for number in a_list:
+        sum_value += number
+    return sum_value
