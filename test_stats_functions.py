@@ -8,7 +8,7 @@ def test_mean():
 def test_med():
     my_list = [1,2,3,4]
     m = stats_functions.med(my_list)
-    assert m == 2
+    assert m == 2.5
     
 def test_range():
     my_list = [1,2,3,4]
