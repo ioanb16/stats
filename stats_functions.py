@@ -1,5 +1,7 @@
 def mean(a_list):
-    return sum(a_list)/len(a_list)
+    inverse_list = [1/x for x in a_list if x != 0]
+    return len(a_list) / sum(inverse_list)
+
 
 def med(a_list):
     sorted_list = sorted(a_list)
