@@ -1,6 +1,10 @@
-def mean(a_list):
+def harmonic_mean(a_list):
     inverse_list = [1/x for x in a_list if x != 0]
     return len(a_list) / sum(inverse_list)
+
+def mean(a_list):
+    sum_value = sum(a_list)
+    return sum_value / len(a_list) 
 
 
 def med(a_list):
