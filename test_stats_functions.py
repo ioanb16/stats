@@ -20,4 +20,10 @@ def test_sum():
     s = stats_functions.sum(my_list)
     assert s == 10
 
+def test_variance():
+    my_list = [1,2,3]
+
+    v = stats_functions.variance(my_list)
+    assert v == 2/3 
+
 

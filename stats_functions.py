@@ -21,3 +21,9 @@ def sum(a_list):
     for number in a_list:
         sum_value += number
     return sum_value
+
+def variance(a_list):
+    m = mean(a_list)
+    squared_diff = [(x - m) ** 2 for x in a_list]
+    return mean(squared_diff)
+
